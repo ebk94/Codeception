@@ -14,7 +14,7 @@ class FirstCest
         $I->seeLink('Sign in');
         $I->click('Sign in');
         $I->canSeeInCurrentUrl('/#/login');
-        //$I->pause();
+        $I->pause();
         // $I->waitForElement('#agree_button', 30); // secs
         // $I->fillField('Email', 'test@user.ts');
         // $I->fillField('Password', 'admin');
